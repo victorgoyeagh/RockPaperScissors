@@ -1,0 +1,40 @@
+
+.player {
+    text-align: center;
+
+    .fa {
+        &.lrg {
+            font-size: 10em;
+            min-height: 170px;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .btn {
+        padding-bottom: 0px;
+    }
+
+    &.computer {
+
+        .fa {
+            &.fa-hand-paper,
+            &.fa-hand-rock {
+                transform: rotate(90deg);
+            }            
+            &.fa-hand-scissors {
+                transform: scaleX(-1)
+            }
+        }
+    }
+    &.human {
+
+        .fa {
+            &.fa-hand-paper,
+            &.fa-hand-rock {
+                transform: scaleX(-1) rotate(90deg);
+            }
+        }
+    }
+}
+

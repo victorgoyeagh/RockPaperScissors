@@ -1,0 +1,15 @@
+<div [class]="'row player ' + this.playerType.toLowerCase()">
+    <div class="col-12">
+        <div [class]="'fa fa-hand-'+this.playerHand+' lrg'"></div>
+        <hr />
+        <h4><i class="fa fa-user"></i> {{ this.playerName }}</h4>
+        <h6>{{ this.playerType }}</h6>
+    </div>
+    <div class="col-12" *ngIf="this.playerType === this.PlayerType.Human">
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-secondary" title="Play: Rock" (click)="selectedWeapon(PlayOptions.Rock)"><i class="fa fa-hand-rock"></i></button>
+            <button type="button" class="btn btn-secondary" title="Play: Paper" (click)="selectedWeapon(PlayOptions.Paper)"><i class="fa fa-hand-paper"></i></button>
+            <button type="button" class="btn btn-secondary" title="Play: Scissors" (click)="selectedWeapon(PlayOptions.Scissors)"><i class="fa fa-hand-scissors"></i></button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="row justify-content-md-center" *ngIf="showResult">
+    <div id="feedback" class="col-6 text-center feedback">
+        <p>{{ txtResult }}<br/>
+        {{ txtWinner }}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <app-player id="playerOne" #playerOne [setPlayerName]="'Player One'" [setPlayerType]="PlayerType.Computer"></app-player>
+    </div>
+
+    <div class="col-6">
+        <app-player id="playerTwo" #playerTwo [setPlayerName]="'You'" [setPlayerType]="PlayerType.Human"></app-player>
+    </div>
+</div>
