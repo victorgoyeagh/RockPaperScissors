@@ -12,8 +12,8 @@ export class PlayerComponent extends AbstractPlayer implements OnInit {
     public PlayerType = PlayerType;
     public PlayOptions = PlayOptions;
 
-    constructor(private playerService: PlayerService) {
-        super();
+    constructor(protected playerService: PlayerService) {
+        super(playerService);
     }
 
     ngOnInit() {

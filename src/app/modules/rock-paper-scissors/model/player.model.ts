@@ -11,6 +11,8 @@ export enum PlayerType {
 }
 
 import { Input } from "@angular/core";
+import { PlayerService } from "../service/player.service";
+
 
 export abstract class AbstractPlayer {
     public playerType: PlayerType = PlayerType.Computer;
@@ -25,8 +27,7 @@ export abstract class AbstractPlayer {
     public playerHand: string = undefined;
     public playerScore: number = 0;
 
-    constructor(
-    ) {
+    constructor(protected playerService: PlayerService) {
     }
 }
 
