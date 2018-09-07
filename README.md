@@ -19,28 +19,29 @@ improvements...
 - add sequential animation to icons
 - update score, apply limit/rounds
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
-## Development server
+## User ​Story:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+As a games player, I'd like to play rock, paper, scissors so that I can spend an hour of my day having fun.
 
-## Code scaffolding
+## Required ​functionality:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The ability to play against the computer.
 
-## Build
+## Technical ​Constraints:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Use modern web development techniques. Using a JavaScript framework such as Angular or React would be preferable.
 
-## Running unit tests
+## Don't ​know ​the ​game?
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+http://en.wikipedia.org/wiki/Rock-paper-scissors
 
-## Running end-to-end tests
+## Guidance:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- Approach the exercise as if you’re building the application for production. How would you ensure a high quality, maintainable solution?
 
-## Further help
+- As a rough guide it should take around 2-3 hours, but feel free to spend a bit more time to create a solution you’re happy with.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Include a sentence or two on how you approached the problem and what you’d improve, given more time.
+
+- Simple, clear solutions are perfectly acceptable. There’s no need to over-engineer. Please include instructions on how to run the application and tests.
