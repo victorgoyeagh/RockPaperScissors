@@ -1,4 +1,15 @@
-# GuardianApp
+# Rock Paper Scissors
+
+via bash or terminal...
+
+- navigate cd:dir to root of project
+- run "npm install"
+- run "npm start"
+- open localhost:4200 in chrome browser
+
+run tests...
+
+- run "npm test"
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
