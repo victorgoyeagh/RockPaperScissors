@@ -11,6 +11,14 @@ run tests...
 
 - run "npm test"
 
+improvements...
+
+- load player components dynamically
+- make fully responsive
+- revise data flow
+- add sequential animation to icons
+- update score, apply limit/rounds
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
 ## Development server
